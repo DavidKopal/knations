@@ -1,0 +1,30 @@
+@font-face {
+    font-family: pixel;
+    src: url('Font/Perfect\ DOS.ttf');
+}
+
+html, body, button, div, p {
+    font-family: pixel;
+}
+
+body {
+    background-image: url('Images/Background.png');
+    background-size: 800px;
+}
+
+.info {
+    font-size: x-large;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+
+#info {
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 40px;
+    border: 2px solid black;
+}
+
+#time {
+    font-weight: bold;
+}
