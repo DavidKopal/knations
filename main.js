@@ -193,7 +193,6 @@ function info(tag) {
         let nation = nations[tag]
         let ideology = ideologies[nation.ideology.split('/')[0]][nation.ideology.split('/')[1]]
         let past = 0
-        console.log(ideology.rnums)
         if (ideology.rnums == true) {
             nation.past_leaders.forEach(name => {
                 if (name == nation.leader.name) {
